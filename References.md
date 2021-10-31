@@ -2,11 +2,6 @@
 
 Find references here.
 
-* Also read [DeveloperTips.md](DeveloperTips.md)
-* Also read [DeveloperThoughts.md](DeveloperThoughts.md)
-* Also read [References.md](References.md)
-* Go back to [README.md](README.md)
-
 # References
 
 1. https://natureofcode.com/book/introduction/ (textbook)

@@ -5,24 +5,17 @@ P5 JS is one of those simple JS libraries that anybody can use. Here, I put some
 * Also read [DeveloperTips.md](DeveloperTips.md)
 * Also read [DeveloperThoughts.md](DeveloperThoughts.md)
 * Also read [References.md](References.md)
-* Go back to [README.md](README.md)
 
 # Live Editor
 
 1. https://editor.p5js.org/
 
-# Starter Template 
+# Project Folders 
 
-1. [P5_JS_Starter_Animation](P5_JS_Starter_Animation)
-1. [P5_JS_Starter_Image](P5_JS_Starter_Image)
-1. [P5_JS_Starter_PieChart](P5_JS_Starter_PieChart)
-
-# Projects 
-
-1. [P5JSSimpleHouse](P5JSSimpleHouse)
-1. [IntroductionRandomNumberDistribution](IntroductionRandomNumberDistribution)
-1. [IntroductionRandomWalks](IntroductionRandomWalks)
-1. [PerlinNoisePartZero](PerlinNoisePartZero)
+1. [ChapterOneVectors](ChapterOneVectors)
+1. [ChapterZero](ChapterZero)
+1. [OtherProjects](OtherProjects)
+1. [StarterProjects](StarterProjects)
 
 # Art Portfolio
 
