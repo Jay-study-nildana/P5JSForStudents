@@ -9,6 +9,7 @@ Find references here.
 1. https://github.com/processing/p5.js/wiki/Local-server (setting up local server)
 1. https://github.com/nature-of-code/noc-examples-p5.js (P5.JS code from textbook)
 1. https://getsharex.com/ (to make cool gifs to show off your P5.JS art)
+1. https://www.w3schools.com/colors/colors_picker.asp (useful to pick colors)
 
 # Hire Me
 
