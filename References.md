@@ -10,6 +10,8 @@ Find references here.
 1. https://github.com/nature-of-code/noc-examples-p5.js (P5.JS code from textbook)
 1. https://getsharex.com/ (to make cool gifs to show off your P5.JS art)
 1. https://www.w3schools.com/colors/colors_picker.asp (useful to pick colors)
+1. https://p5js.org/learn/coordinate-system-and-shapes.html (co-ordinate system used by P5.JS)
+1. https://happycoding.io/tutorials/ (good place with some nice tutorials)
 
 # Hire Me
 

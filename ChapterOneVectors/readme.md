@@ -9,6 +9,10 @@ Projects related to Chapter One of Nature of Code book.
 1. [BouncingBallNoVectors](BouncingBallNoVectors)
 1. [BouncingBallWithVectors](BouncingBallWithVectors)
 
+# References
+
+1. https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp01_vectors
+
 # Art Portfolio
 
 1. Check out my [Behance Page](https://www.behance.net/vijayasimhabr)

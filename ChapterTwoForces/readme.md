@@ -8,6 +8,10 @@ Projects related to Chapter Two of Nature of Code book.
 1. [BallsOfManyMassWithWater](BallsOfManyMassWithWater)
 1. [MoonandEarth](MoonandEarth)
 
+# References
+
+1. https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp02_forces
+
 # Art Portfolio
 
 1. Check out my [Behance Page](https://www.behance.net/vijayasimhabr)

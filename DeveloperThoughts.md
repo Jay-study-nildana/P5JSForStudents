@@ -2,6 +2,14 @@
 
 Putting some developer thoughts here. 
 
+# Performance Considerations
+
+You have to understand that, P5.JS is ultimately a 'not so optimised' library. All it takes is a few unchecked animations for P5.JS to complete freeze your entire computer. 
+
+So, you need to keep an eye out on how many thingss you have rendering on a simple visual. For example, anything more than a basic animation, expect a Macbook Air or a Surface Pro to completely collapse and freeze up. 
+
+When I do P5.JS, I usually do it on my main computer. I use a GTX 1060 and RTX 3060 with 32 GB. Even this setup can be insufficient to some of the more powerful animations. So, you have been warned. Ensure that you trial and error the amount of particles you want on your screen. 
+
 # Art Portfolio
 
 1. Check out my [Behance Page](https://www.behance.net/vijayasimhabr)

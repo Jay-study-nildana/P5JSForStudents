@@ -1,13 +1,14 @@
-# Perlin Noise
+# Angular Motion
 
-A quick implementation of Perlin Noise with some of my own modifications. 
+A quick implementation of Angular Motion with some of my own modifications. 
 
-![image info](PerlinNoise_October28th2021A_800px.png)
+![image info](AngularMotion_800px.png)
+![image info](AngularMotion2_800px.png)
 
 # References
 
-1. https://natureofcode.com/book/introduction/
-1. https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp00_introduction/Noise1D
+1. https://natureofcode.com/book/chapter-3-oscillation/
+1. https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp03_oscillation/NOC_3_01_angular_motion
 
 # Art Portfolio
 

@@ -2,6 +2,14 @@
 
 These are projects that dont fit in any folder.
 
+# master copy from repo.
+
+Just for my own personal back up, I have copied and pasted a master copy of the P5.JS code examples of nature of code book.
+
+filename: noc-examples-p5.js-master
+
+Source link: https://github.com/nature-of-code/noc-examples-p5.js
+
 # Projects
 
 1. [P5JSSimpleHouse](P5JSSimpleHouse)

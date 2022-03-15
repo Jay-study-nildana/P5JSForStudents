@@ -2,9 +2,11 @@
 // Daniel Shiffman
 // http://natureofcode.com
 
-let bg_color_x = 255;
-let bg_color_y = 51;
-let bg_color_z = 153;
+
+
+let angle = 0;
+let aVelocity = 0;
+let aAcceleration = 0.0001;
 
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
@@ -15,34 +17,34 @@ function setup() {
 
 function draw() {
 
-  //Snake One
+  if (leaveTrail == true) {
+    //dont update background color
+  }
+  else {
+    background(bg_color_x, bg_color_y, bg_color_z);
+  }  
 
-  let x = returnCoOrdinate(xoff,'width')
-  let y = returnCoOrdinate(yoff,'height')
-  // With each cycle, increment xoff
-  xoff += xincrement;
-  yoff += yincrement;    
 
-  //the following will give a nice snake style random moving across
-  //the entire view
-  drawEllipse(x,y,ellipse_width,ellipse_height,true);
-  //the following will move across the x axis because height is constant
-  // drawEllipse(x,height/2,ellipse_width,ellipse_height,true);
-  //the following will move across the y axis because width is constant
-  // drawEllipse(width/2,y,ellipse_width,ellipse_height,true);
+  translate(width / 2, height / 2);
+  rotate(angle);
 
-  //Snake Two 
-  //TODO - can we modularize this so we can just pick number of snakes
+  let rgbSetStroke = new colorRGBSet();
+  let tempStrokeWeight = random(stroke_Weight);
+  let rgbSetFill = new colorRGBSet();
 
-  let x2 = returnCoOrdinate(xoff2,'width')
-  let y2 = returnCoOrdinate(yoff2,'height')
-  // With each cycle, increment xoff
-  xoff2 += xincrement2;
-  yoff2 += yincrement2;    
+  stroke(rgbSetStroke.red, rgbSetStroke.green, rgbSetStroke.blue);
+  strokeWeight(tempStrokeWeight);
+  fill(rgbSetFill.red, rgbSetFill.green, rgbSetFill.blue);  
 
-  //the following will give a nice snake style random moving across
-  //the entire view
-  drawEllipse(x2,y2,ellipse_width,ellipse_height,true);  
+  let lineEndPoint = 600;
+  let ellipseRadius = 64;
+
+  line(-lineEndPoint, 0, lineEndPoint, 0);
+  ellipse(lineEndPoint, 0, ellipseRadius, ellipseRadius);
+  ellipse(-lineEndPoint, 0, ellipseRadius, ellipseRadius);  
+
+  angle += aVelocity;
+  aVelocity += aAcceleration;  
 
   // print(n);
 }

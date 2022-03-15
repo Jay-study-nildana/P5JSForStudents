@@ -6,6 +6,10 @@ projects related to the first chapter of Nature of Code Book.
 1. [IntroductionRandomWalks](IntroductionRandomWalks)
 1. [PerlinNoisePartZero](PerlinNoisePartZero)
 
+# References
+
+1. https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp00_introduction
+
 # Art Portfolio
 
 1. Check out my [Behance Page](https://www.behance.net/vijayasimhabr)
