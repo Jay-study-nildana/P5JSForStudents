@@ -11,16 +11,18 @@ Projects related to Chapter Eight of Nature of Code book.
 1. https://natureofcode.com/book/chapter-8-fractals/
 1. https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp08_fractals
 
-# Art Portfolio
-
-Along with P5.JS, I also do some photography and 3D art with Daz 3D. Find everything in the below online art profiles.
-
-1. Check out my [Behance Page](https://www.behance.net/vijayasimhabr)
-1. Check out my [Unsplash Page](https://unsplash.com/@jay_neeruhaaku)
-
 # Hire Me
 
 I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy).
+
+# Hobbies
+
+I try to maintain a few hobbies.
+
+1. Podcasting. You can listen to my [podcast here](https://stories.thechalakas.com/listen-to-podcast/).
+1. Photography. You can see my photography on [Unsplash here](https://unsplash.com/@jay_neeruhaaku).
+1. Digital Photorealism 3D Art and Arch Viz. You can see my work on this on [Adobe Behance](https://www.behance.net/vijayasimhabr).
+1. Writing and Blogging. You can read my blogs. I have many medium Publications. [Read them here](https://medium.com/@vijayasimhabr).
 
 # important note
 

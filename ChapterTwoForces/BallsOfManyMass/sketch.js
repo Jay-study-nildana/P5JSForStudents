@@ -2,35 +2,7 @@
 // Daniel Shiffman
 // http://natureofcode.com
 
-let bg_color_x = 255;
-let bg_color_y = 51;
-let bg_color_z = 153;
 
-let movers = []
-let numberOfMovers = 50;
-
-let ellipseColorsSet = [];
-let ellipseStrokeColorsSet = [];
-let ellipseStrokeWeight = [];
-
-//the max allowed stroke Weight
-let stroke_Weight = 20;
-
-let massMinimum = 2;
-let massMaximum = 10;
-
-let windX = 0.01;
-let windY = 0;
-
-let gravityX = 0;
-let gravityY = 2.0;
-
-let realGravity = false;
-
-let realFriction = false;
-
-let frictionInit = 0.1;
-let frictionMult = 0.1;
 
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
