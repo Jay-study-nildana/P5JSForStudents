@@ -1,38 +1,35 @@
 class Walker {
-    //[full] Objects have data.
-    var x = 0;
-    int y;
-    //[end]
-
-    //[full] Objects have a constructor where they are initialized.
-    Walker() {
-        x = width/2;
-        y = height/2;
+    constructor() {
+      this.x = width / 2;
+      this.y = height / 2;
     }
-    //[end]
-      
-    //[full] Objects have functions.
-    void display() {
-        stroke(0);
-        point(x,y);
+  
+    render() {
+      //https://p5js.org/reference/#/p5/stroke
+      // strokeWeight(4);
+      // stroke(51);    
+  
+      stroke(stroke_color_x, stroke_color_y, stroke_color_z);
+      strokeWeight(stroke_weight);
+      point(this.x, this.y);
     }
-    //[end]     
-
-    void step() {
-        // 0, 1, 2, or 3
-        int choice = int(random(4));
-        //[full] The random “choice” determines our step.
-        if (choice == 0) {
-            x++;
-        } else if (choice == 1) {
-            x--;
-        } else if (choice == 2) {
-            y++;
-        } else {
-            y--;
-        }
-        //[end]
-        }
-    }          
-    
-}
+  
+    step() {
+      var choice = floor(random(random_number_for_walking));
+      if (choice === 0) {
+        // this.x++;
+        this.x = this.x + stroke_weight;
+      } else if (choice == 1) {
+        // this.x--;
+        this.x = this.x - stroke_weight;
+      } else if (choice == 2) {
+        // this.y++;
+        this.y = this.y + stroke_weight;
+      } else {
+        // this.y--;
+        this.y = this.y - stroke_weight;
+      }
+      this.x = constrain(this.x, 0, width - stroke_weight);
+      this.y = constrain(this.y, 0, height - stroke_weight);
+    }
+  }

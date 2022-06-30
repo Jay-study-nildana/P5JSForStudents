@@ -2,28 +2,22 @@
 // Daniel Shiffman
 // http://natureofcode.com
 
-let theta;  //decides the angle of the branch
-let startDrawing; //decide to start drawing only after the mouse click.
-let lengthOfFirstBranch; //not used.
-let linelimit; //number of lines to draw with each call
-let animationTracker; //decide how frequently the animation updates.
-let maxLines; //the point at which you want the lines to stop. avoids over crowding of lines on the animation.
-let openingTreeThickness;
-let reductionOfLength; //default is 0.66
-let reductionOfThickness; //default is 0.66
+
 
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.style('display', 'block');
   background(bg_color_x, bg_color_y, bg_color_z);
   //in the beginning, the mouse is not yet clicked.
-  startDrawing = false;
-  theta = 0;
+  startDrawing = true;
+  // Let's pick an angle 0 to 90 degrees based on the mouse position
+  theta = map(200, 0, width, 0, PI / 2);
   lengthOfFirstBranch = height / 3;  //default height / 3
   maxLines = 15;
   animationTracker = 0;
   linelimit = 0;
-  openingTreeThickness = 30;  //thickness at which drawing starts
+  //thickness at which drawing starts
+  openingTreeThickness = 10;  
   reductionOfLength = 0.66;
   reductionOfThickness = 0.88;
 
@@ -45,7 +39,7 @@ function draw() {
     //draw a new tree every 60 frames.
     //change this to 30 if you want.
     //stop once you have drawn the maximum lines allowed
-    if (animationTracker % 30 == 0) {
+    if (animationTracker % animationMultiplier == 0) {
       if (linelimit < maxLines) {
         drawTreeWithLineLimit(linelimit);  //draws at bottom center
         //every time we draw, we allow on more line to be drawn.
@@ -56,7 +50,7 @@ function draw() {
   }
 
   animationTracker++;
-  if (animationTracker > 6000) {
+  if (animationTracker > stoppageValue) {
     animationTracker = 0;
   }
 
@@ -72,8 +66,7 @@ function mousePressed() {
   background(bg_color_x, bg_color_y, bg_color_z);
   //get X on which theta depends.
   print("mouse clicked: X : " + mouseX + " Y : " + mouseY);
-  // Let's pick an angle 0 to 90 degrees based on the mouse position
-  theta = map(mouseX, 0, width, 0, PI / 2);
+
   print("theta : " + theta);
   startDrawing = true;
   //reset number of lines to zero

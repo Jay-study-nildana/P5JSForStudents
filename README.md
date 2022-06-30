@@ -8,6 +8,8 @@ Note : Image generated from code in ChapterZero > IntroductionRandomWalks. This 
 
 Note : Each folder contains an example output image. This should help you get to the exact code that you are looking for, based on the appearance.
 
+Note : I am, ultimately, just a simple tutor who has some decent tutoring skills. Most of the code you see here is borrowed from open source, free code written by someone, somewhere, from all over the internet. I have ensured that the original author is credited in every project here.
+
 - Also read [DeveloperTips.md](DeveloperTips.md)
 - Also read [DeveloperThoughts.md](DeveloperThoughts.md)
 - Also read [References.md](References.md)
@@ -15,6 +17,8 @@ Note : Each folder contains an example output image. This should help you get to
 # Live Editor
 
 1. https://editor.p5js.org/
+
+I am not a big fan of this. I would recommend you use it when you really, really, dont have another option. Or, when you want to show stuff to your colleagues in a easy, sharable link. I personally prefer a combination of github and screenshots/video links to showcase my P5.JS work.
 
 # Project Folders
 
@@ -27,16 +31,18 @@ Note : Each folder contains an example output image. This should help you get to
 1. [Fractals](ChapterEightFractals) - Fractal Trees.
 1. [OtherStuff](OtherProjects) - Simple House with colors.
 
-# Art Portfolio
-
-Along with P5.JS, I also do some photography and 3D art with Daz 3D. Find everything in the below online art profiles.
-
-1. Check out my [Behance Page](https://www.behance.net/vijayasimhabr)
-1. Check out my [Unsplash Page](https://unsplash.com/@jay_neeruhaaku)
-
 # Hire Me
 
 I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy).
+
+# Hobbies
+
+I try to maintain a few hobbies.
+
+1. Podcasting. You can listen to my [podcast here](https://stories.thechalakas.com/listen-to-podcast/).
+1. Photography. You can see my photography on [Unsplash here](https://unsplash.com/@jay_neeruhaaku).
+1. Digital Photorealism 3D Art and Arch Viz. You can see my work on this on [Adobe Behance](https://www.behance.net/vijayasimhabr).
+1. Writing and Blogging. You can read my blogs. I have many medium Publications. [Read them here](https://medium.com/@vijayasimhabr).
 
 # important note
 
