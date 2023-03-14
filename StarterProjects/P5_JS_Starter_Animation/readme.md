@@ -1,12 +1,19 @@
-# Starter Projects
+# P5 JS Starter Animation
 
-Here, I have put some starter projects that can be used. When starting a new project or a practice chapter.
+A simpler starter animation for my students to get started with.
 
-# Projects
+![image info](EarthandMoon_800px.png)
 
-1. [P5_JS_Starter_Animation](P5_JS_Starter_Animation)
-1. [P5_JS_Starter_Image](P5_JS_Starter_Image)
-1. [P5_JS_Starter_PieChart](P5_JS_Starter_PieChart)
+# Files in the project
+
+1. sketch.js - the main file where you write your code.
+1. globalvariables.js - the file where I keep all global variables. Yes, in JavaScript we dont really recommend global variables. However, we are doing animation here. some rules need to be broken.
+1. mover.js - where I put all the 'satellite' things. the many moons.
+
+# References
+
+1. https://natureofcode.com/book/chapter-2-forces/
+1. https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp02_forces/NOC_2_06_attraction
 
 # Art Portfolio
 

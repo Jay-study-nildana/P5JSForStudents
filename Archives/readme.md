@@ -1,12 +1,6 @@
-# Starter Projects
+# archives
 
-Here, I have put some starter projects that can be used. When starting a new project or a practice chapter.
-
-# Projects
-
-1. [P5_JS_Starter_Animation](P5_JS_Starter_Animation)
-1. [P5_JS_Starter_Image](P5_JS_Starter_Image)
-1. [P5_JS_Starter_PieChart](P5_JS_Starter_PieChart)
+old projects that I am no longer maintaining. however, these may have some educational value to my students.
 
 # Art Portfolio
 
