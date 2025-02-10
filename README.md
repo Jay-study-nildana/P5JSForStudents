@@ -1,67 +1,49 @@
 # P5 JS For Students
 
-P5 JS is one of those simple JS libraries that anybody can use. Here, I put some of my learnings for students to explore.
+P5.js is a simple JavaScript library that anybody can use. Here, I put some of my learnings for students to explore.
 
-A massive thanks to [https://natureofcode.com](https://natureofcode.com)
+A massive thanks to [The Nature of Code](https://natureofcode.com).
 
 ![image info](RandomWalk_October4th2021_800px.png)
 
-Note : Image generated from code in ChapterZero > IntroductionRandomWalks. This is one of my favorites, because, it just looks so cool.
+*Note: Image generated from code in ChapterZero > IntroductionRandomWalks. This is one of my favorites because it just looks so cool.*
 
-Note : I am, ultimately, just a simple tutor who has some decent tutoring skills. Most of the code you see here is borrowed from open source, free code written by someone, somewhere, from all over the internet. I have ensured that the original author is credited in every project here.
+## Online Editors for P5.js
+
+1. [P5.js Web Editor](https://editor.p5js.org/)
+1. [OpenProcessing](https://openprocessing.org)
+
+## Project Folders
+
+1. [StarterProjects](StarterProjects) - Use one of the folders here to get yourself started.
+1. [Zero](ChapterZero) - Perlin Noise, Random Walks, and Random Number Distribution.
+1. [Vectors](ChapterOneVectors) - Bouncing Ball, Ball Moving Towards Mouse.
+1. [Forces](ChapterTwoForces) - Balls of Different Masses, and Balls Inside Water.
+1. [Oscillation](ChapterThreeOscillation) - Pendulum-like a clock thing, Angular Motion, Cannon Ball, Cars moving towards mouse, and Waves.
+1. [ParticleSystems](ChapterFourParticleSystems) - Particles Flowing Out On Click.
+1. [Fractals](ChapterEightFractals) - Fractal Trees.
+1. [OtherStuff](OtherProjects) - Simple House with colors.
+1. [Archives](Archives) - Archived projects.
+
+## Additional Notes
 
 - Also read [DeveloperTips.md](DeveloperTips.md)
 - Also read [DeveloperThoughts.md](DeveloperThoughts.md)
 - Also read [References.md](References.md)
 
-# Live Editor
+## Book a Session with Me
 
-1. https://editor.p5js.org/
+1. [Calendly](https://calendly.com/jaycodingtutor/30min)
 
-I am not a big fan of this. I would recommend you use it when you really, really, dont have another option. Or, when you want to show stuff to your colleagues in a easy, sharable link. I personally prefer a combination of github and screenshots/video links to showcase my P5.JS work.
+## Hire and Get to Know Me
 
-# Processing Community Portal
+Find ways to hire me, follow me, and stay in touch with me.
 
-1. https://openprocessing.org
-
-Recently, I discovered that there is a website dedicated to showcasing P5.JS stuff. So, this is the one. Check it out, and become part of the community.
-
-# Project Folders
-
-1. [StarterProjects](StarterProjects) - use one of the folders here to get yourself started.
-1. [Zero](ChapterZero) - Perlin Noise, Random Walks and Rand Number Distribution.
-1. [Vectors](ChapterOneVectors) - Bouncing Ball, Ball Moving Towards Mouse.
-1. [Forces](ChapterTwoForces) - Balls of Different Masses, and Balls Inside Water.
-1. [Oscillation](ChapterThreeOscillation) - Pendulum like a clock thing, Angular Motion, Cannon Ball, Cars moving towards mouse and Waves.
-1. [ParticleSystems](ChapterFourParticleSystems) - Particles Flowing Out On Click.
-1. [Fractals](ChapterEightFractals) - Fractal Trees.
-1. [OtherStuff](OtherProjects) - Simple House with colors.
-1. [Archives](Archives) - archived projects
-
-# Art Portfolio
-
-1. Check out my [Open Processing Page](https://openprocessing.org/user/371797/)
-1. Check out my [Behance Page](https://www.behance.net/vijayasimhabr)
-1. Check out my [Unsplash Page](https://unsplash.com/@jay_neeruhaaku)
-1. Check out my [Artstation Page](https://www.artstation.com/jay_kalenildana)
-
-# Hire Me
-
-I work as a full time freelance coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
-
-# Hobbies
-
-I try to maintain a few hobbies.
-
-1. Podcasting. You can listen to my daily life [podcast](https://stories.thechalakas.com/listen-to-podcast/).
-1. Podcasting. You can listen to my movies [podcast](https://sandkdesignstudio.in/jays-movie-podcast/).
-1. Daily Life Blog. [Read it here](https://medium.com/the-sanguine-tech-trainer).
-1. Coding and Technology Blog. [Read it here](https://medium.com/projectwt).
-1. Daz 3D, Photography and Photoshop Blog. [Read it here](https://medium.com/random-pink-hula).
-
-# important note 
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-1. Jay's [Developer Profile](https://jay-study-nildana.github.io/developerprofile)
-1. Jay's [Personal Site](https://stories.thechalakas.com/)
+1. [GitHub](https://github.com/Jay-study-nildana)
+1. [Personal Site](https://thechalakas.com)
+1. [Upwork](https://www.upwork.com/fl/vijayasimhabr)
+1. [Fiverr](https://www.fiverr.com/jay_codeguy)
+1. [Codementor](https://www.codementor.io/@vijayasimhabr)
+1. [Stack Overflow](https://stackoverflow.com/users/5338888/jay)
+1. [Jay's Coding Channel on YouTube](https://www.youtube.com/channel/UCJJVulg4J7POMdX0veuacXw/)
+1. [Medium Blog](https://medium.com/@vijayasimhabr)
